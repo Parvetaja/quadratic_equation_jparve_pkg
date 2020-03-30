@@ -1,4 +1,5 @@
-#[Quadratic Equation Solver](https://test.pypi.org/project/quadratic-equation-jparve-pkg/)
+#Quadratic Equation Solver
+[PyPi](https://test.pypi.org/project/quadratic-equation-jparve-pkg/)
 
 Installing the package
 ```
