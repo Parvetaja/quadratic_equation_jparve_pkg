@@ -2,30 +2,7 @@
 from math import sqrt
 
 
-def solve_equation():
-    x2 = x = c = ""
-
-    while len(x2) == 0:
-        x2 = input("Insert square member(x^2)")
-
-    while len(x) == 0:
-        x = input("Insert member(x)")
-
-    while len(c) == 0:
-        c = input("Insert free member(c)")
-
-    try:
-        x2 = int(x2)
-        x = int(x)
-        c = int(c)
-    except ValueError as e:
-        print("Entered value isn't a number!")
-        return
-
-    return find_roots(x2, x, c)
-
-
-def find_roots(a, b, c):
+def find_roots(a: int, b: int, c: int):
     """
     Function which finds intersection points of given quadratic equation (y = ax^2 + bx + c).
 
@@ -54,7 +31,3 @@ def find_roots(a, b, c):
 
     print(f"Solutions are {x1} and {x2}")
     return x1, x2
-
-
-if __name__ == "__main__":  # <- This line is needed for automatic testing
-    solve_equation()

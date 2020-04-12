@@ -11,3 +11,7 @@ class TestQuadraticSolver(unittest.TestCase):
 
     def test_no_result(self):
         self.assertIsNone(solver.find_roots(1, 0, 1))
+
+
+if __name__ == '__main__':
+    unittest.main()

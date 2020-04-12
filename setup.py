@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="quadratic_equation_jparve_pkg",
-    version="0.0.2",
+    version="0.0.4",
     author="Jan Joonas Parve",
     author_email="jparve@taltech.ee",
     description="Module for quadratic equation solving",
-    long_description="Module with a function which finds intersection points of a given quadratic equation",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Parvetaja/quadratic_equation_jparve_pkg",
     packages=setuptools.find_packages(),
